@@ -1,0 +1,4 @@
+com/example/varik22/MainActivity.java
+ com.example.varik22.MainActivity
+com/example/varik22/BuildConfig.java
+ com.example.varik22.BuildConfig

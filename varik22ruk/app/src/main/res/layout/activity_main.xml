@@ -1,0 +1,62 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/black">
+
+    <ListView
+        android:id="@+id/lw"
+        android:layout_width="match_parent"
+        android:layout_height="522dp"
+        android:layout_weight="1"
+        android:background="#ffcc" />
+    <EditText
+        android:id="@+id/EditFirst"
+        android:background="#ffa"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" />
+    <LinearLayout
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:background="@color/black"
+        android:layout_height="wrap_content">
+        <Button
+            android:id="@+id/b1"
+            android:text="@string/Button"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:onClick="btn1"
+            android:background="#FFFF00"
+        android:textAllCaps="false" />
+        <Button
+            android:id="@+id/b2"
+            android:text="@string/Button1"
+            android:layout_width="0dp"
+            android:onClick="Edit2"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFF00"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/b3"
+            android:text="@string/Button2"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:background="#FFFF00"
+            android:onClick="Del"
+            android:layout_weight="1"
+            android:textAllCaps="false" />
+        <Button
+            android:id="@+id/b4"
+            android:onClick="clear"
+            android:text="@string/Button3"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="#FFFF00"
+            android:textAllCaps="false" />
+    </LinearLayout>
+
+</LinearLayout>

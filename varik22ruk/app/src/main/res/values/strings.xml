@@ -1,0 +1,16 @@
+<resources>
+    <string name="app_name">Project_1</string>
+    <string name="ListView"> </string>
+
+    <string name="EditView"> </string>
+
+    <string name="Button">NextNumber</string>
+
+    <string name="Button1">Edit</string>
+
+    <string name="Button2">ClearText</string>
+
+    <string name="Button3">ClearList</string>
+
+    <color name="lv">#ffcc</color>
+</resources>
